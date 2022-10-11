@@ -30,4 +30,4 @@ def draw_graph(features, dong, fidx, start=0, end=93):
 
 
 for i in range(50):
-    change_graph(features_mean, top50_dongs.iloc[i], 1)
+    draw_graph(features_mean, top50_dongs.iloc[i], 1)
